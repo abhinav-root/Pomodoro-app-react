@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary1: #1f4690;
+  --primary1: #3a5ba0;
+  --primary3: #ffa500;
+  --primary4: #ffafee;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary1);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar-container {
+  width: 30rem;
+}
+
+.progress-bar-container button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.controls {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.controls-container {
+  height: 75%;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.timer {
+  display: flex;
+}
+
+.timer {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  color: var(--primary4);
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.3rem;
+}
+
+.work-mode {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: wheat;
+}
+
+.repeat {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.repeat div {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.repeat span {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin: 0 1rem;
+}
+
+.repeat-value {
+  color: red;
+  padding: 0.2rem;
+  font-weight: 500;
+}
+
+.repeat button,
+.timer button {
+  padding: 0.2rem 0.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.3rem;
+  background: transparent;
+}
+
+.repeat button:hover,
+.timer button:hover {
+  background-color: white;
+  cursor: pointer;
+}
